@@ -37,11 +37,21 @@ jobs:
     - name: Run prober
       run: rekor-cli loginfo
 
+  fulcio-probe:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # Make sure fulcio server is up
+    - name: Run prober
+      run: curl https://fulcio.sigstore.dev/
+
   slack-notification:
     name: Slack Notification On Failure
     runs-on: ubuntu-latest
     needs: [rekor-probe]
-    if: needs.rekor-probe.result == 'failure'
+    if: (needs.rekor-probe.result == 'failure' || needs.fulcio-probe.result == 'failure')
     steps:
     - uses: actions/checkout@v2
     - name: Slack Notification
