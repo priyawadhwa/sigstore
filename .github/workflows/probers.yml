@@ -18,7 +18,7 @@ name: Sigstore Probers
 on:
   schedule:
     # run every minute
-    - cron:  '1 * * * *'
+    - cron:  '0/5 * * * *'
 jobs:
   rekor-probe:
     runs-on: ubuntu-latest
