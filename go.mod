@@ -35,7 +35,6 @@ require (
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2 // indirect
 	github.com/hashicorp/go-version v1.3.0 // indirect
 	github.com/hashicorp/vault/api v1.3.1
-	github.com/hashicorp/vault/api/auth/approle v0.1.1
 	github.com/hashicorp/yamux v0.0.0-20211028200310-0bc27b27de87 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
@@ -48,7 +47,7 @@ require (
 	github.com/secure-systems-lab/go-securesystemslib v0.3.0
 	github.com/segmentio/ksuid v1.0.4
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.7.5
 	github.com/theupdateframework/go-tuf v0.0.0-20211203210025-7ded50136bf9
 	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
