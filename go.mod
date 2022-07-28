@@ -7,7 +7,7 @@ require (
 	cloud.google.com/go v0.99.0 // indirect
 	cloud.google.com/go/kms v1.1.0
 	github.com/Azure/azure-sdk-for-go v61.3.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.11.24
+	github.com/Azure/go-autorest/autorest v0.11.28
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.9 // indirect
 	github.com/Azure/go-autorest/autorest/azure/cli v0.4.4 // indirect
 	github.com/Azure/go-autorest/autorest/to v0.4.0
@@ -35,7 +35,6 @@ require (
 	github.com/hashicorp/go-secure-stdlib/strutil v0.1.2 // indirect
 	github.com/hashicorp/go-version v1.3.0 // indirect
 	github.com/hashicorp/vault/api v1.3.1
-	github.com/hashicorp/vault/api/auth/approle v0.1.1
 	github.com/hashicorp/yamux v0.0.0-20211028200310-0bc27b27de87 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
@@ -50,7 +49,7 @@ require (
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/stretchr/testify v1.7.0
 	github.com/theupdateframework/go-tuf v0.0.0-20211203210025-7ded50136bf9
-	golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3
+	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	golang.org/x/sys v0.0.0-20211205182925-97ca703d548d // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
